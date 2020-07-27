@@ -2,7 +2,7 @@
 var pos , prev
 
 function setup() {
-	createCanvas(400 , 400)
+	createCanvas(400 , 400).center();
 	background(0)
 	pos = createVector(200 , 200)
 	prev = pos.copy()
